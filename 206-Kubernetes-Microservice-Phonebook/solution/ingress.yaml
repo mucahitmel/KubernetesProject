@@ -1,0 +1,5 @@
+envFrom:
+        - configMapRef:
+            name: server-config
+        - secretRef:
+            name: mysql-secret
